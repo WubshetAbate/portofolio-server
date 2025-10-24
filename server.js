@@ -37,7 +37,7 @@ app.get("/api/projects", (req, res) => {
       id: 4,
       title: "Apple website",
       desc: "An Apple official website rebuilt as exactly similar to it",
-      tech: ["React", "API Integration", "Express", "Mysql"],
+      tech: ["React", "Express", "Mysql"],
       link: "https://github.com/WubshetAbate/Apple-by-React.git",
       demo: "https://silly-naiad-a0b745.netlify.app/",
     },
@@ -48,6 +48,14 @@ app.get("/api/projects", (req, res) => {
       tech: ["HTML", "CSS", "Javascript"],
       link: "https://github.com/WubshetAbate/Calculator-project.git",
       demo: "https://wubshet-calculator.netlify.app/",
+    },
+    {
+      id: 6,
+      title: "Weather App",
+      desc: "A Weather App that shows the weather of any city in the world",
+      tech: ["HTML", "modular CSS", "JS", "API"],
+      link: "https://github.com/WubshetAbate/weather-app.git",
+      demo: "https://wubshet-weather-app.netlify.app/",
     },
   ]);
 });
